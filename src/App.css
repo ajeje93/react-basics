@@ -3,8 +3,9 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 5vmin;
   pointer-events: none;
+  float: left;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +36,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 5px;
 }
